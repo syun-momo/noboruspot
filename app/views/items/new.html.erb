@@ -1,6 +1,6 @@
 <div class="items-sell-contents">
   <header class="items-sell-header">
-    <%= link_to image_tag('furima-logo-color.png' , size: '185x50'), "/" %>
+    <%= link_to image_tag('rogo.png'), "/" %>
 
   </header>
   <div class="items-sell-main">
@@ -14,7 +14,7 @@
     <%# 出品画像 %>
     <div class="img-upload">
       <div class="weight-bold-text">
-        出品画像
+        スポット画像
         <span class="indispensable">必須</span>
       </div>
       <div class="click-upload">
@@ -28,13 +28,13 @@
     <%# 商品名と商品説明 %>
     <div class="new-items">
       <div class="weight-bold-text">
-        商品名
+        店名　スポット名
         <span class="indispensable">必須</span>
       </div>
       <%= f.text_area :hoge, class:"items-text", id:"item-name", placeholder:"商品名（必須 40文字まで)", maxlength:"40" %>
       <div class="items-explain">
         <div class="weight-bold-text">
-          商品の説明
+          スポットの説明
           <span class="indispensable">必須</span>
         </div>
         <%= f.text_area :hoge, class:"items-text", id:"item-info", placeholder:"商品の説明（必須 1,000文字まで）（色、素材、重さ、定価、注意点など）例）2010年頃に1万円で購入したジャケットです。ライトグレーで傷はありません。あわせやすいのでおすすめです。" ,rows:"7" ,maxlength:"1000" %>
@@ -44,7 +44,7 @@
 
     <%# 商品の詳細 %>
     <div class="items-detail">
-      <div class="weight-bold-text">商品の詳細</div>
+      <div class="weight-bold-text">屋内外選択</div>
       <div class="form">
         <div class="weight-bold-text">
           カテゴリー
