@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+NOBORU
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# NOBORUの概要
+NOBORUは全国各地の屋内外のボルダリングができるスポットを投稿できるサイトです。
+https://gyazo.com/9e7288cc9ec598578e1d6e1f178e1449
