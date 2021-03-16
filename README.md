@@ -8,6 +8,7 @@ NOBORUは全国各地の屋内外のボルダリングができるスポット�
 ![](https://i.gyazo.com/9e7288cc9ec598578e1d6e1f178e1449.jpg)
 
 # URL
+https://noboruspot.herokuapp.com/
 UserID admin
 Password 2222
 
